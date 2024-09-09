@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Numero 2</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid border border-info">
+        <div class="w-100">
+            <p class="text-white bg-primary text-end">Formulario de Productos</p>
+        </div>
+        <div>
+            <form>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="codigo">Codigo </label>
+                    <div class="colm-sm-4">
+                        <input class="form-control" placeholder="Codigo" id="codigo" type="search">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="name">Nombre </label>
+                    <div class="col-sm-4">
+                        <input class="form-control" placeholder="Nombre" id="name" type="text">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="precio">Precio </label>
+                    <div class="col-sm-4">
+                        <input class="form-control" placeholder="Precio" id="precio" type="text">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="descrip">Descripción </label>
+                    <div class="col-sm-4">
+                        <textarea class="form-control" placeholder="Descripción" id="descrip"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="file">Imagen </label>
+                    <div class="col-sm-4">
+                        <input class="text-white bg-primary form-control" id="file" type="file">
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="w-100 bg-light border foot">
+            <button class="btn btn-primary" type="button">Agregar</button>
+            <button disabled class="btn btn-primary" type="reset">Modificar</button>
+            <button disabled class="btn btn-primary" type="reset">Eliminar</button>
+            <button disabled class="btn btn-primary" type="reset">Cancelar</button>
+            <button class="btn btn-primary" type="button">Salir</button>
+        </div>
+        </form>
+    </div>
+    <div class="bg-transparent border">
+        <p>Mensajes del Sistema</p>
+    </div>
+</body>
+</html>

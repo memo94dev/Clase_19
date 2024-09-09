@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Numero 1</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+</head>
+
+<body class="container d-flex flex-column align-content-between">
+    <div class="container-fluid border border-info w-100">
+        <div class="row text-white bg-primary w-100">
+            <div class="col-6 w-100"></div>
+            <div class="col-6 d-flex justify-content-center w-100"><p class="m-2">Carga de Usuarios</p></div>
+        </div>
+        <div>
+            <form class="col-6 m-4">
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="codigo">Codigo </label>
+                    <div class="colm-sm-4">
+                        <input class="form-control" placeholder="Codigo" id="codigo" type="search">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="name">Nombre </label>
+                    <div class="col-sm-4">
+                        <input class="form-control" placeholder="Nombre" id="name" type="text">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="login">Login </label>
+                    <div class="col-sm-4">
+                        <input class="form-control" placeholder="Login" id="login" type="text">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="pass">Password </label>
+                    <div class="col-sm-4">
+                        <input class="form-control" placeholder="Password" id="pass" type="password">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="pass-repet">Repetir Password </label>
+                    <div class="col-sm-4">
+                        <input class="form-control" placeholder="Repetir Password" id="pass-repet" type="password">
+                    </div>
+                </div>
+        </div>
+
+        <div class="row w-100 bg-light border foot">
+            <div class="col-6"></div>
+            <div class="col-6"><button class="btn btn-primary" type="button">Agregar</button>
+                <button disabled class="m-2 btn btn-primary" type="reset">Modificar</button>
+                <button disabled class="m-2 btn btn-primary" type="reset">Eliminar</button>
+                <button disabled class="m-2 btn btn-primary" type="reset">Cancelar</button>
+                <button class="btn btn-primary" type="button">Salir</button></div>
+        </div>
+        </form>
+    </div>
+    <div class="bg-transparent border d-flex justify-content-end">
+        <p class="text-end">Mensajes del Sistema</p>
+    </div>
+</body>
+
+</html>
